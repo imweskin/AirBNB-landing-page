@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/AirBNB-landing-page/static/css/main.35edaaf5.css",
+    "main.js": "/AirBNB-landing-page/static/js/main.879f342c.js",
+    "static/media/group.png": "/AirBNB-landing-page/static/media/group.56f4c3394d1fec3cb16b.png",
+    "static/media/card-1.png": "/AirBNB-landing-page/static/media/card-1.3a3434e3f5632d7c8f76.png",
+    "static/media/card-3.png": "/AirBNB-landing-page/static/media/card-3.542c1db206bdaa71af4b.png",
+    "static/media/card-2.png": "/AirBNB-landing-page/static/media/card-2.cc36ce403c2a7db00380.png",
+    "index.html": "/AirBNB-landing-page/index.html",
+    "main.35edaaf5.css.map": "/AirBNB-landing-page/static/css/main.35edaaf5.css.map",
+    "main.879f342c.js.map": "/AirBNB-landing-page/static/js/main.879f342c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35edaaf5.css",
+    "static/js/main.879f342c.js"
+  ]
+}
