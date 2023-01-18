@@ -1,0 +1,112 @@
+*,*::before,*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  height: 70px;
+  padding: 20px 30px;
+  box-shadow: 0px 3px 7px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero .image{
+  width: 400px;
+  padding-top: 26px;
+}
+.hero .image img {
+  max-width: 100%;
+}
+.hero .info {
+  align-self: start;
+  padding: 32px 36px 0;
+}
+.hero .info .experience {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+@media (max-width: 400px) {
+  .hero .image {
+    width: 350px;
+  }
+  .hero .info .experience {
+    font-size: 30px;
+  }
+}
+.hero .info .slogan {
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 320px;
+  line-height: 18px;
+  color: #222222;
+}
+.cards {
+  margin-top: 50px;
+  padding: 0 0 30px 37px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  overflow-x: scroll;
+}
+.card {
+  width: 176px;
+}
+.card .card-img {
+  width: 176px;
+  height: 235px;
+  position: relative;
+}
+.card .card-img img {
+  width: 100%;
+  height: 100%;
+}
+.card .card-img .availability {
+  position: absolute;
+  background-color: #fff;
+  top: 11px;
+  left: 12px;
+  padding: 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 11px;
+  border-radius: 2px;
+}
+.card .rating {
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #222222;
+}
+.card .rating img {
+  width: 14px;
+  height: 14px;
+}
+.card .rate span {
+  color: #918E9B;
+}
+.card .card-title {
+  margin: 8px 0;
+  font-size: 12px;
+  font-weight: 300;
+  color: #222222;
+}
+.card .card-price {
+  font-size: 12px;
+  font-weight: 600;
+  color: #222222;
+}
+.card .card-price span{
+  font-weight: 300;
+}
